@@ -1,6 +1,5 @@
 //
 //  GA_HER_MLPageControl.m
-//  B_GA_HermesHome
 //
 //  Created by zhushuaishuai on 2018/5/4.
 //
@@ -9,13 +8,14 @@
 
 @implementation GA_HER_MLPageControl
 
+#pragma mark - override
 - (void)setCurrentPage:(NSInteger)currentPage {
     [super setCurrentPage:currentPage];
     [self updateDots];
 }
 
-
-//图片切换时，改变pagecontrol 的图片
+#pragma mark - private
+// 改变图片和大小
 - (void)updateDots {
     for (int i = 0; i < [self.subviews count]; i++) {
         UIView *view = [self.subviews objectAtIndex: i];

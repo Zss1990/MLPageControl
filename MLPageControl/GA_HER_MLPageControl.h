@@ -1,6 +1,5 @@
 //
 //  GA_HER_MLPageControl.h
-//  B_GA_HermesHome
 //
 //  Created by zhushuaishuai on 2018/5/4.
 //
